@@ -1,4 +1,3 @@
-setwd("~/Documents/research/misc/reproducibility/testing")
 demographics <- read.csv(file='participants.tsv', head=TRUE, sep="\t")
 age <- demographics[4]
 demean_age <- age - sum(age)/length(age)
